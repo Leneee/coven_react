@@ -1,0 +1,18 @@
+.container-card{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.imgCarrito{
+    width: 2rem;
+}
+.counter{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(199, 180, 217);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}

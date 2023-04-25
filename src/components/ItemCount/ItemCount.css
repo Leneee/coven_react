@@ -1,0 +1,17 @@
+.container-counter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-count{
+    border: none;
+    background-color: rgb(199, 180, 217);
+    padding: 10px;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
