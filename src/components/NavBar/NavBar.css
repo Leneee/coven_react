@@ -13,6 +13,11 @@ header{
   position: relative;
 }
 
+.item>a{
+  color:black;
+  text-decoration: none;
+}
+
 .item::after {
   content: '';
   position: absolute;
