@@ -1,11 +1,14 @@
-import './NavBar.css'
 import CardWidget from '../CardWidget/CardWidget'
-import { NavLink } from 'react-router-dom'
+import './NavBar.css'
+import { NavLink, Link } from 'react-router-dom'
 
 const NavBar = () => {
   return (
     <header>
-      <h1>Coven Manairum</h1>
+      <Link to={"/"}>
+        <img src="../img/logo.jpg" alt="" className='logo' />
+      </Link>
+      
       <nav>
         <ul>
           <li className='item'>

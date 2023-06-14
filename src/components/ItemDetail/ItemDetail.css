@@ -1,11 +1,24 @@
 .contenedorItem{
-    text-align: center;
-    border: 1px solid gray;
     margin:3rem;
-
+    display: flex;
 }
 
-img{
+.imgContainer{
     width: 50vw;
-    
+    display: flex;
+    justify-content: center;
+}
+
+.imgItem{
+   width: 95%;  
+   height: 450px;
+   object-fit: cover;   
+}
+
+.itemDescription{
+    width:50vw;
+    padding: 3rem;
+}
+h3, p{
+    margin:5px;
 }
